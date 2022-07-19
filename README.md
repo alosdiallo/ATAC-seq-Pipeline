@@ -13,6 +13,7 @@ runAsPipeline mapping_script.sh "sbatch -A immdiv -p short -t 20:0 -n 1" noTmp r
 track type=narrowPeak 
 
 6:To fix line issues, run this for each file:
+Now done via script.
 awk -v OFS="\t" '$1=$1' Sample9.bam.sorted.bam.narrowPeak > Sample9_fixed.bam.sorted.bam.narrowPeak
 
 https://bioinformatics.stackexchange.com/questions/11394/how-to-visualize-called-narrowpeak-files-in-ucsc-genome-browser-or-igv
