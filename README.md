@@ -9,3 +9,5 @@ runAsPipeline mapping_script.sh "sbatch -A immdiv -p short -t 20:0 -n 1" noTmp r
 
 3:convert sam files to bam format
 4: Sort reads by name in the bam file
+
+https://bioinformatics.stackexchange.com/questions/11394/how-to-visualize-called-narrowpeak-files-in-ucsc-genome-browser-or-igv
