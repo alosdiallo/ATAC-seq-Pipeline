@@ -11,7 +11,7 @@ for narrowPeak in $PWD/*.fixed.narrowPeak
 do
 
 #create a prefix
-#@1,0,homer,,sbatch -p short -n 1 -t 60:0 --mem 70G -c 1
+#@1,0,homer,,sbatch -p medium -n 1 -t 20:00:00 --mem 120G -c 1
 
 findMotifsGenome.pl "$narrowPeak" /home/ad249/scratch/ATACseqUnzip/bowtie_mapped_results/Bam_files/Sorted_bam/Peaks/data/genomes/mm10 /home/ad249/scratch/ATACseqUnzip/bowtie_mapped_results/Bam_files/Sorted_bam/Peaks/homer_results -size 200
 
