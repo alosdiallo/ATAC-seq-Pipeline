@@ -20,3 +20,17 @@ Now done via script.
 awk -v OFS="\t" '$1=$1' Sample9.bam.sorted.bam.narrowPeak > Sample9_fixed.bam.sorted.bam.narrowPeak
 
 https://bioinformatics.stackexchange.com/questions/11394/how-to-visualize-called-narrowpeak-files-in-ucsc-genome-browser-or-igv
+
+
+
+Authors
+--------------------
+	Alos Diallo - Department of Immunology, Harvard Medical School
+  	
+Copyright © 2018 the President and Fellows of Harvard College.
+
+![Blavatnikimmunology](https://github.com/alosdiallo/HMS_Immunology_RNASeq/blob/master/Blavatnikimmunology.jpg)  
+![Immgen](https://github.com/alosdiallo/HMS_Immunology_RNASeq/blob/master/immgen.png)  
+![EVERGRANDE](https://github.com/alosdiallo/HMS_Immunology_RNASeq/blob/master/evergrande_logo_footer2.png)
+
+### [MIT License](https://github.com/alosdiallo/HiC_Network_Viz_tool/blob/master/Licence.txt)
